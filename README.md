@@ -3,6 +3,5 @@
 - Github bot's
 # yurifr4ddy Brasil
 **Java Support!**
-
-![image](https://cdn.discordapp.com/avatars/933891035216613446/77e3972bea14cf93189b5dc22dd0e322.webp?size=2048)
+![image](https://imguh.com/images/2022/10/20/20220903_203300c87cf2d370e8bd45.png)
 
