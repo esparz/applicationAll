@@ -46,6 +46,9 @@ public class MainActivity extends  Activity {
 	}
 	
 	private void initializeLogic() {
+                       
+                      //background linear assets file
+
 		try {
 				java.io.InputStream backgroundInput = getAssets().open("anime_img.jpg"); 
 				Drawable backgroundDraw = Drawable.createFromStream(backgroundInput, null);
@@ -117,4 +120,4 @@ public class MainActivity extends  Activity {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
 	
-}
+}
