@@ -1,0 +1,53 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear_All"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<EditText
+			android:id="@+id/editText_Hex"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#263238"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF"
+			android:hint="Base 32"
+			android:textColorHint="#B0BEC5"
+			android:alpha="0.8"/>
+		<Button
+			android:id="@+id/button__1_but"
+			android:layout_width="wrap_content"
+			android:layout_height="40dp"
+			android:padding="8dp"
+			android:background="#424242"
+			android:text="OK"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF"
+			android:alpha="0.8"/>
+		<LinearLayout
+			android:id="@+id/linear_H1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal"/>
+		<Button
+			android:id="@+id/button__2_but"
+			android:layout_width="wrap_content"
+			android:layout_height="40dp"
+			android:padding="8dp"
+			android:background="#424242"
+			android:text="imagem base64"
+			android:textSize="11sp"
+			android:textColor="#FFFFFF"
+			android:alpha="0.8"/>
+	</LinearLayout>
+</LinearLayout>
